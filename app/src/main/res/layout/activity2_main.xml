@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+
+    <Button
+        android:id="@+id/activity2_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Mode"
+        android:textColor="@color/colorText_light_mode" />
+
+    <Button
+        android:id="@+id/activity2_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light Mode"
+        android:textColor="@color/colorText_light_mode" />
+</LinearLayout>

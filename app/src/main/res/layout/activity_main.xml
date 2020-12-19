@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/activity_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity"
+        android:textColor="@color/colorText_light_mode"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/activity_new_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Activity"
+        android:textColor="@color/colorText_light_mode" />
+
+    <Button
+        android:id="@+id/activity_new_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Fragment"
+        android:textColor="@color/colorText_light_mode" />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // light mode
+    <color name="colorPrimary_light_mode">#0B346E</color>
+    <color name="colorPrimaryDark_light_mode">#08192D</color>
+    <color name="colorAccent_light_mode">#006284</color>
+    <color name="colorText_light_mode">#1A1A1A</color>
+    <color name="colorTab_light_mode">#863C91</color>
+    <color name="colorGrey">#808080</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+
+    // dark mode
+    <color name="colorPrimary_dark_mode">#1F1B24</color>
+    <color name="colorPrimaryDark_dark_mode">#000</color>
+    <color name="colorText_dark_mode">#dcdcdc</color>
+    <color name="colorTab_dark_mode">#863C91</color>
+    <color name="colorDarkGrey">#121212</color>
+</resources>
